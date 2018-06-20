@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/collab-ui/automatetest/compare/v1.5.0...v1.6.0) (2018-06-20)
+
+
+### Features
+
+* **npm:** test the npm publish ([043a81b](https://github.com/collab-ui/automatetest/commit/043a81b))
+
 # [1.5.0](https://github.com/collab-ui/automatetest/compare/v1.4.1...v1.5.0) (2018-06-20)
 
 

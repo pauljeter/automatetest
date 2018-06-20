@@ -14,7 +14,7 @@
   "author": "jlowery",
   "license": "ISC",
   "devDependencies": {
-    "@collab-ui/release": "file:///Users/pajeter/dev/toolkit/@external/collab-ui-release",
-    "semantic-release": "^15.6.0"
+    "semantic-release": "^15.6.0",
+    "yarn": "^1.7.0"
   }
 }

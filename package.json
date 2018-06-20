@@ -1,6 +1,6 @@
 {
   "name": "@collab-ui/automatetest",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "test package for automating collab ui publishing",
   "main": "index.js",
   "scripts": {

@@ -7,7 +7,7 @@
   "prepare": [
     {
       "path": "@semantic-release/changelog",
-      "changelogFile": "CHANGELOG.md"
+      "changelogFile": "CHANGELOG.MD"
     },
     "@semantic-release/npm",
     {

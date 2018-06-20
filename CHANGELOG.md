@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/collab-ui/automatetest/compare/v1.6.0...v2.0.0) (2018-06-20)
+
+
+### Features
+
+* **breaking:** testing the breaks ([bc7d805](https://github.com/collab-ui/automatetest/commit/bc7d805))
+
+
+### BREAKING CHANGES
+
+* **breaking:** needs to be in all caps
+
 # [1.6.0](https://github.com/collab-ui/automatetest/compare/v1.5.0...v1.6.0) (2018-06-20)
 
 

@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/collab-ui/automatetest/compare/v2.0.0...v2.1.0) (2018-06-21)
+
+
+### Bug Fixes
+
+* **plugin:** add mising plugin ([a8f55f2](https://github.com/collab-ui/automatetest/commit/a8f55f2))
+
+
+### Features
+
+* **sparkbot:** test ([244567f](https://github.com/collab-ui/automatetest/commit/244567f))
+
 # [2.0.0](https://github.com/collab-ui/automatetest/compare/v1.6.0...v2.0.0) (2018-06-20)
 
 

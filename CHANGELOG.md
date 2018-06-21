@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/collab-ui/automatetest/compare/v2.1.0...v2.1.1) (2018-06-21)
+
+
+### Bug Fixes
+
+* **inquirer:** remove ([9e3477f](https://github.com/collab-ui/automatetest/commit/9e3477f))
+
 # [2.1.0](https://github.com/collab-ui/automatetest/compare/v2.0.0...v2.1.0) (2018-06-21)
 
 

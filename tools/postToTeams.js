@@ -6,21 +6,22 @@ function promptCiscoWebexToken(spaceId) {
     if (process.env.WEBEXTEAMS_ACCESS_TOKEN) {
       resolve(process.env.WEBEXTEAMS_ACCESS_TOKEN);
     } else {
-      var questions = [
-        {
-          type: 'input',
-          name: 'wtToken',
-          message: 'Webex Teams access token:',
-        },
-      ];
+      reject('WEBEXTEAMS_ACCESS_TOKEN env variable not found');
+      // var questions = [
+      //   {
+      //     type: 'input',
+      //     name: 'wtToken',
+      //     message: 'Webex Teams access token:',
+      //   },
+      // ];
 
-      console.log(
-        '\x1b[33m%s\x1b[0m',
-        'WEBEXTEAMS_ACCESS_TOKEN env variable not found (set WEBEXTEAMS_ACCESS_TOKEN to skip this prompt)'
-      );
-      inquirer.prompt(questions).then(function(answers) {
-        resolve(answers.wtToken);
-      });
+      // console.log(
+      //   '\x1b[33m%s\x1b[0m',
+      //   'WEBEXTEAMS_ACCESS_TOKEN env variable not found (set WEBEXTEAMS_ACCESS_TOKEN to skip this prompt)'
+      // );
+      // inquirer.prompt(questions).then(function(answers) {
+      //   resolve(answers.wtToken);
+      // });
     }
   });
 }
@@ -31,22 +32,23 @@ function promptCiscoWebexSpace() {
       spaceId = process.env.WEBEXTEAMS_SPACE_ID;
       resolve(spaceId);
     } else {
-      var questions = [
-        {
-          type: 'input',
-          name: 'wtSpace',
-          message: 'Webex Teams access space id:',
-        },
-      ];
+      reject('WEBEXTEAMS_SPACE_ID env variable not found.');
+      // var questions = [
+      //   {
+      //     type: 'input',
+      //     name: 'wtSpace',
+      //     message: 'Webex Teams access space id:',
+      //   },
+      // ];
 
-      console.log(
-        '\x1b[33m%s\x1b[0m',
-        'WEBEXTEAMS_SPACE_ID env variable not found (set WEBEXTEAMS_SPACE_ID to skip this prompt)'
-      );
-      inquirer.prompt(questions).then(function(answers) {
-        spaceId = answers.wtSpace;
-        resolve(spaceId);
-      });
+      // console.log(
+      //   '\x1b[33m%s\x1b[0m',
+      //   'WEBEXTEAMS_SPACE_ID env variable not found (set WEBEXTEAMS_SPACE_ID to skip this prompt)'
+      // );
+      // inquirer.prompt(questions).then(function(answers) {
+      //   spaceId = answers.wtSpace;
+      //   resolve(spaceId);
+      // });
     }
   });
 }

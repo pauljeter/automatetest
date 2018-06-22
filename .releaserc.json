@@ -14,7 +14,7 @@
       "path": "@semantic-release/git",
       "assets": ["package.json", "dist/**/*.{js|css}", "CHANGELOG.md"],
       "message":
-        "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        "chore(release): v${nextRelease.version} [skip ci]"
     }
   ],
   "publish": [
@@ -24,7 +24,12 @@
   "success": [
     {
       "path": "@semantic-release/exec",
-      "cmd": "node ./tools/postToTeams.js ${nextRelease.notes}"
+      "cmd": "node postToTeams.js ${nextRelease.notes}"
     }
-  ]
+  ],
+  "generateNotes": {
+    "parserOpts": {
+      "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+    }
+  }
 }

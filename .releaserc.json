@@ -24,12 +24,12 @@
   "success": [
     {
       "path": "@semantic-release/exec",
-      "cmd": "node ./tools/postToTeams.js ${nextRelease.notes}"
+      "cmd": "node postToTeams.js ${nextRelease.notes}"
     }
   ],
   "generateNotes": {
     "parserOpts": {
-      "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+      "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
     }
   }
 }

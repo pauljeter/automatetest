@@ -24,7 +24,7 @@
   "success": [
     {
       "path": "@semantic-release/exec",
-      "cmd": "node postToTeams.js ${nextRelease.notes}"
+      "cmd": "node postToTeams.js --message=\"${nextRelease.notes}\""
     }
   ],
   "generateNotes": {

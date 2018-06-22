@@ -11,3 +11,4 @@ This is the last of 3 commits
 
 This is the 1st of 3 commits
 This is the 2nd of 3 commits
+This is the last of 3 commits

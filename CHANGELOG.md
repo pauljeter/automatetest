@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/collab-ui/automatetest/compare/v2.1.1...v2.2.0) (2018-06-22)
+
+
+### Bug Fixes
+
+* **another:** commit in the same PR ([1d97003](https://github.com/collab-ui/automatetest/commit/1d97003))
+
+
+### Features
+
+* **spark:** fix spark message ([6334c65](https://github.com/collab-ui/automatetest/commit/6334c65))
+
 ## [2.1.1](https://github.com/collab-ui/automatetest/compare/v2.1.0...v2.1.1) (2018-06-21)
 
 

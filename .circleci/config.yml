@@ -59,7 +59,7 @@ workflows:
     # Run the test jobs first, then the release only when all the test jobs are successful
     triggers:
       - schedule:
-          cron: "15 10 * * 1,2,3,4,5"
+          cron: "30 15 * * 1,2,3,4,5"
           filters:
             branches:
               only:

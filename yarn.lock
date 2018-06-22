@@ -259,6 +259,16 @@
     babel-runtime "^6.23.0"
     envify "^4.1.0"
 
+"@collab-ui/core@^10.11.0":
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@collab-ui/core/-/core-10.11.0.tgz#077bf075b6721024c6745049d670e6e8eef95c58"
+  dependencies:
+    "@collab-ui/icons" "^3.9.0"
+
+"@collab-ui/icons@^3.9.0":
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/@collab-ui/icons/-/icons-3.9.0.tgz#696dfc9e7c426a4b618d4e2df61ef78122a21617"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"

@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/collab-ui/automatetest/compare/v2.3.0...v2.4.0) (2018-06-22)
+
+
+### Features
+
+* **context:** test context in circleci ([3ea449d](https://github.com/collab-ui/automatetest/commit/3ea449d))
+
 # [2.3.0](https://github.com/collab-ui/automatetest/compare/v2.2.1...v2.3.0) (2018-06-22)
 
 

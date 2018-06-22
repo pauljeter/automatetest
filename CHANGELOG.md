@@ -1,3 +1,12 @@
+# [2.3.0](https://github.com/collab-ui/automatetest/compare/v2.2.1...v2.3.0) (2018-06-22)
+
+
+### Features
+
+* **multiple:** This is the 1st of 3 commits ([a177a1e](https://github.com/collab-ui/automatetest/commit/a177a1e))
+* **multiple:** This is the 2nd of 3 commits ([4d43a14](https://github.com/collab-ui/automatetest/commit/4d43a14))
+* **multiple:** This is the last of 3 commits ([09041e1](https://github.com/collab-ui/automatetest/commit/09041e1))
+
 ## [2.2.1](https://github.com/collab-ui/automatetest/compare/v2.2.0...v2.2.1) (2018-06-22)
 
 

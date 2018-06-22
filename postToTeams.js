@@ -1,5 +1,6 @@
-var inquirer = require('inquirer');
-var webexTeams = require('ciscospark');
+const args = require('yargs').argv;
+const webexTeams = require('ciscospark');
+const package = require('./package.json');
 
 function promptCiscoWebexToken(spaceId) {
   return new Promise(function(resolve, reject) {
@@ -54,8 +55,8 @@ function promptCiscoWebexSpace() {
 }
 
 function sendWebexTeamsMessage() {
-  var args = process.argv.splice(process.execArgv.length + 2);
-  const teamsMessage = args[0];
+  const teamsMessage = '# ' + package.name + '\n' + args.message;
+  console.log(package.name);
   let spaceId;
   promptCiscoWebexSpace()
     .then((response) => {

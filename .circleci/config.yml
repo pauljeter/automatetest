@@ -61,3 +61,4 @@ workflows:
       - release:
           requires:
             - test
+          context: Collab UI Bot
